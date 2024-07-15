@@ -133,6 +133,17 @@ WD-ProjectName
 └─ readme.md
 ```
 
+
+## Wakatime
+
+### Coding Activity
+
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@018f067c-0c58-45b5-b9fa-e3b746c3dab6/d5674f7c-c582-4ac0-b5cc-9a27266de370.png" height=300/></a>
+
+### Languages
+
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@018f067c-0c58-45b5-b9fa-e3b746c3dab6/1dc5833b-76e1-4a02-a8dc-322249fb5d12.png" height=300/></a>
+
 ## Resources
 
 <!-- TODO: Add References -->
@@ -144,15 +155,7 @@ WD-ProjectName
 | W3School | For HTML And CSS Guide | https://www.w3schools.com/html/default.asp |
 
 
-## Wakatime
 
-### Coding Activity
-
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@018f067c-0c58-45b5-b9fa-e3b746c3dab6/d5674f7c-c582-4ac0-b5cc-9a27266de370.png" height=300/></a>
-
-### Languages
-
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@018f067c-0c58-45b5-b9fa-e3b746c3dab6/d5674f7c-c582-4ac0-b5cc-9a27266de370.png" height=300/></a>
 
 
 
