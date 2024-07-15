@@ -1,0 +1,245 @@
+*{
+    margin:0%;
+    padding:0%;
+    
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.navigation{
+    background-color: rgb(0, 0, 0);
+    padding: 0 2rem 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.navigation img{
+height: 5rem;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+
+.navigation a{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    transition:transform  .2s;
+    }
+
+.navigation a:hover{
+    transform: scale(1.5);
+    color:rgb(31, 238, 100);
+    }
+
+#skills{
+        transform: scale(1.5);
+        color:rgb(31, 238, 100);
+}
+
+span{
+    color:rgb(31, 238, 100);
+}
+
+header{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.bi-code{
+
+    color:white;
+    font-size: 8rem;
+
+}
+
+#p1 h1{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+
+#p1{
+    width: 10%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s;
+    
+}
+
+#p1:hover{
+    transform: scale(1.5);
+}
+
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.second{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.bi-camera2{
+
+    color:white;
+    font-size: 8rem;
+
+}
+
+.content{
+    display: flex;
+    height: 100dvh;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 4rem ;
+}
+
+.bi-vector-pen{
+    color:white;
+    font-size: 8rem;
+}
+
+.bi-bounding-box{
+    color:white;
+    font-size: 8rem;
+}
+.bi-hand-thumbs-up-fill{
+    color:white;
+    font-size: 8rem;
+}
+
+.bi-camera-reels-fill{
+    color:white;
+    font-size: 8rem;
+}
+
+#level{
+    display: flex;
+    flex-direction: row;
+}
+
+.bi-star{
+    color:white;
+    font-size: 2rem;
+}
+.bi-star-fill{
+    color:rgb(31, 238, 100);
+    font-size: 2rem;
+}
+.bi-star-half{
+    color:rgb(31, 238, 100);
+    font-size: 2rem;
+}
+
+.footer{
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.footer p{
+    align-self: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    margin:-1rem;
+}
+
+.footer img{
+    height: 4rem;
+    }
+
+    .bi-facebook{
+        font-size: 2rem;
+        color: rgb(255, 255, 255);
+        transition: transform .2s;
+    }
+    
+    .bi-instagram{
+        font-size: 2rem;
+        color: rgb(255, 255, 255);
+        transition: transform .2s;
+     
+    }
+    
+    .bi-github{
+        font-size: 2rem;
+        color: rgb(255, 255, 255);
+        transition: transform .2s;
+     
+    }
+    
+    #icons{
+        display: flex;
+        gap: 3rem;
+    }
+    
+    
+    span{
+        color: rgb(31, 238, 100);
+    }
+    
+    .bi-facebook:hover{
+        transform: scale(1.5);
+        color: rgb(31, 238, 100);
+    }
+    
+    .bi-instagram:hover{
+        transform: scale(1.5);
+        color: rgb(31, 238, 100);
+    
+    }
+    
+   .bi-github:hover{
+        transform: scale(1.5);
+        color: rgb(31, 238, 100);
+    
+    }
+
