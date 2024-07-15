@@ -1,0 +1,207 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.try1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50dvh;
+    background-image: url(../img/bg.gif);
+   background-size: cover;
+   background-position: center;
+   
+}
+
+
+.picture{
+
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5rem;
+
+}
+.try1 img{
+    height:25rem;
+    border-radius: 50%;
+    border: 5px solid rgb(10, 160, 60);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.try2{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.try2 h1{
+    font-size: 2rem;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+         margin-top: 10rem;
+         
+}
+
+.try2 h2{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+}
+
+.try2 p{
+ 
+    color:white;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 1.3rem;
+}
+
+.try2 span{
+    color: rgb(31, 238, 100);
+    font-weight: 500;
+}
+
+.navigation{
+    background-color: rgb(0, 0, 0);
+    padding: 0 2rem 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.navigation img{
+height: 5rem;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+
+.navigation a{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    transition: transform  .2s;
+    }
+
+.navigation a:hover{
+    transform: scale(1.5);
+    color:rgb(31, 238, 100);
+    }
+
+#home{
+        transform: scale(1.5);
+        color:rgb(31, 238, 100);
+}
+
+#first{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#about{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bi-facebook{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    transition: transform .2s;
+}
+
+.bi-instagram{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    transition: transform .2s;
+ 
+}
+
+.bi-github{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    transition: transform .2s;
+ 
+}
+
+#icons{
+    display: flex;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+
+
+
+
+.bi-facebook:hover{
+    transform: scale(1.5);
+    color: rgb(31, 238, 100);
+}
+
+.bi-instagram:hover{
+    transform: scale(1.5);
+    color: rgb(31, 238, 100);
+
+}
+
+.bi-github:hover{
+    transform: scale(1.5);
+    color: rgb(31, 238, 100);
+
+}
+
+.footer{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+flex-direction: column;
+    align-items: center;
+}
+
+.footer h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: white
+}
+
+.footer img{
+    height: 5rem;
+    }
+
+
+
