@@ -1,0 +1,296 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+body, html{
+
+    background-color: black;
+}
+
+.navigation{
+    background-color: rgb(0, 0, 0);
+    padding: 0 2rem 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.navigation img{
+height: 4rem;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#choice {
+    padding: 0 1rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.navigation a{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    transition:transform  .2s;
+    }
+
+.navigation a:hover{
+    transform: scale(1.5);
+    color:rgb(31, 238, 100);
+    }
+
+#proj{
+    transform: scale(1.5);
+    color:rgb(31, 238, 100);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.projects{
+
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.projects2{
+
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+
+.footer {
+    padding: 1rem 2rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer p{
+    align-self: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    margin:-1rem;
+}
+
+
+
+.footer p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    color: white;
+    margin: 0;
+}
+
+.footer img {
+    height: 3rem;
+}
+
+.bi-facebook,
+.bi-instagram,
+.bi-github,
+.bi-arrow-right-square{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    transition: transform 0.2s;
+}
+
+#icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.bi-facebook:hover,
+.bi-instagram:hover,
+.bi-github:hover,
+.bi-arrow-right-square:hover {
+    transform: scale(1.5);
+    color: rgb(31, 238, 100);
+}
+
+
+.content{
+    display: flex;
+   height: 100dvh;
+   justify-content: space-between;
+   flex-direction: column;
+   padding-top: 4rem;
+   padding-bottom: 4rem ;
+
+}
+    span{
+        color:rgb(31, 238, 100);
+    }
+
+.p1{
+    margin-top: 5rem;
+   
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 10%;
+    background-color: rgba(255, 255, 255, 0.075);
+    display: flex;
+    position: relative;
+    width: 30%;
+
+}
+
+.p1 h1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin: 1rem 1rem 0rem 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+
+}
+
+.p1 p{
+    margin: 0 1rem 1rem 1rem;
+    color: rgb(129, 129, 129);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+
+
+.image{
+    align-self: center;
+    border-radius: 10%;
+    display: block;
+    width: 50%;
+    height:auto;
+    box-shadow: 10px 0px #3333339c;
+    
+}
+
+.image:hover{
+    background-color: gray;
+}
+
+.overlay{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(0, 0, 0, 0.13);
+    overflow:hidden;
+    width: 100%;
+    height: 0%;
+    transition: .5s ease;
+
+}
+
+.overlay h1{
+    color: white;
+   
+}
+
+.overlay a{
+    color: white;
+    font-size: 3rem;
+    margin-right: 3rem;
+}
+
+.p1:hover .overlay{
+    height: 40%;
+
+}
+
+.p1:hover {
+    background-color: rgb(31, 31, 31);
+}
+
+#name{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .navigation {
+        padding: 0 1rem 0 2rem;
+    }
+
+    .navigation img {
+        height: 5rem;
+    }
+
+    #choice {
+        gap: 3rem;
+    }
+
+    header {
+        font-size: 4rem;
+    }
+
+    .projects, .projects2 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .projects3 {
+        justify-content: center;
+    }
+
+    .p1 {
+        width: 25%;
+    }
+
+    .image {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .p1 h1 {
+        font-size: 2rem;
+    }
+
+    .p1 p {
+        font-size: 1rem;
+    }
+
+    .footer p {
+        margin: -1rem;
+    }
+}
+
+
+
